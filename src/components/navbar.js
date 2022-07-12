@@ -7,8 +7,9 @@ export class Navbar extends Component {
         <nav className="navbar navbar-expand-lg bg-light">
           <div className="container-fluid">
             <a className="navbar-brand" href="/#">
-              NewsMonkey
+              News-Portal
             </a>
+            
             <button
               className="navbar-toggler"
               type="button"
@@ -24,22 +25,26 @@ export class Navbar extends Component {
               id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/#">
-                    Home
-                  </a>
+                <a className="nav-link" aria-current="page" href="/#">Home</a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/#">
-                    About
-                  </a>
-                </li>
+                
+                  <li className="nav-item"><a className="nav-link" href="/#">About</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/#">Business</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/#">Entertainment</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/#">General</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/#">Health</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/#">Science</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/#">Technology</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/#">Sports</a></li>
+                
               </ul>
             </div>
           </div>
         </nav>
       </div>
-    );
+    );  
   }
 }
 
 export default Navbar;
+
